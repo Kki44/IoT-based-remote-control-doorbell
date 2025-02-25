@@ -11,13 +11,13 @@ def connect_wifi(ssid,password):
     sta.active(True)
     if not sta.isconnected():
         print("Connecting to network...")
-        sta.connect('Gu', '0916483837')
+        sta.connect('K', '0900000000')
         while not sta.isconnected():
             pass
     print("network config:", sta.ifconfig())
     
-SSID = "Gu"
-PASSWORD = "0916483837"
+SSID = "K"
+PASSWORD = "0900000000"
 connect_wifi(SSID,PASSWORD)
 
 xtools.connect_wifi_led()
