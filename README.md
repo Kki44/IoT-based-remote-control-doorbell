@@ -1,8 +1,6 @@
 # IoT-based-remote-control-doorbell
 explore the integration of MQTT protocol with household products
 
-protocol:MQTT
-
 subscriber:LineBot,Line notify
 
 publisher:ESP32_CAM
@@ -17,11 +15,20 @@ publisher:ESP32_CAM
 ### hardware requirement
 ESP32CAM,HC-SR501 sensor
 ### software & other requirement
-**protocol**:MQTT
+**1.protocol**:MQTT
 
-**MQTT Message Broker**:Mosquitto
+**2.MQTT Message Broker**:Mosquitto
 
-**Library**:paho-MQTT
+**3.Library**:paho-MQTT
+
+**4.IDE**:Thonny,Arduino IDE
+
+**5.Deployment platform**:Heroku
+
+**6.Line access token**
+
+# Language 
+micropython,c++
 
 
 
